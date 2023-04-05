@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 50, 75);
+}
+
+#clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    font-size: 50px;
+    color: yellowgreen;
+    width: 300px;
+    height: 110px;
+    background-color: black;
+    border: 1px solid yellowgreen;
+    border-radius: 15px 50px;
+    padding: 20px; 
+     
+}
